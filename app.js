@@ -3,9 +3,11 @@
 console.log('js connected');
 
 // SELECTING ELEMENTS
-const div1 = document.getElementById('div1');
-const list = document.getElementsByClassName('list');
-const paragraph = document.getElementsByTagName('p');
 
-const querySelector = document.querySelector('.list');
-const querySelectorAll = document.querySelectorAll('.list, #div2');
+
+// DEFINE A FUNCTION
+function buttonClick() {
+  document.getElementById("heading").innerHTML="Clicking the button changed this text";
+  //alert('You just clicked the button')
+
+}
